@@ -1,0 +1,71 @@
+#root {
+  height: 100% !important;
+}
+
+body {
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    height: 100% !important;
+    padding-top: 10%;
+  }
+}
+
+html {
+  height: 100% !important;
+}
+
+.custom-navbar {
+  background-color: #9BD1E5;
+  box-shadow: 1px 2px 7px 0px rgba(120,120,120,1);
+  height: 100%;
+}
+
+.custom-navbar-mobile {
+  background-color: #9BD1E5;
+  box-shadow: 1px 2px 7px 0px rgba(120,120,120,1);
+  width: 100%;
+}
+
+.mobilesize-link {
+  font-size: 0.6rem;
+} 
+
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;  
+}
+
+.highlight-text {
+  color: #6A8EAE;
+}
+
+.dashboard-card {
+  background-color:#57A773;
+  border: none;
+}
+
+.taskAndEmployeeCards {
+  background-color: #6A8EAE;
+}
+
+.projectSearchInput {
+  text-decoration: none;
+}
+
+.addBtn {
+  border-radius: 50%;
+}
+
+.btnContainer {
+  background-color: lightgray;
+}
+
+.addBtnContainer {
+  background-color: grey;
+}
+
+.showMoreLessBtn {
+  font-size: 0.7rem;
+}
